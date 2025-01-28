@@ -19,23 +19,23 @@ Orc,Shadow Wolf ,None,None ,None ,500 ,Heavy ,0 ,120/80 ,350,None,Normal,Normal,
 Orc,Serpent Ward ,None,None ,None ,75/135 ,Heavy ,0 ,120/80 ,None,None,Pierce,Missile,12/24.5/43,12/24.5/43,1.5,60,serpent_ward.png
 # Undead
 Undead,Acolyte ,75,0 ,1 ,220 ,Medium ,0 ,80/60 ,220,15,Normal,Normal,9.5,None,2.5,Melee,acolyte.png
-Undead,Ghoul ,120,0 ,2 ,340 ,Heavy ,0/6 ,140/80 ,270/350,18,Normal,Normal,13/17.5,None,1.3/1.04,Melee
-Undead,Crypt Fiend ,215,40 ,3 ,550 ,Medium ,0/6 ,140/80 ,270,30,Pierce,Missile,28.5/39,None,2,55
-Undead,Gargoyle ,185,30 ,2 ,410 ,Unarmored ,3/9 ,160/80 ,350,35,Pierce/Normal,Missile/Normal,19.5/27,65.5/82,2.2/1.4,30/Melee
+Undead,Ghoul ,120,0 ,2 ,340 ,Heavy ,0/6 ,140/80 ,270/350,18,Normal,Normal,13/17.5,None,1.3/1.04,Melee,ghoul.png
+Undead,Crypt Fiend ,215,40 ,3 ,550 ,Medium ,0/6 ,140/80 ,270,30,Pierce,Missile,28.5/39,None,2,55,crypt_fiend.png
+Undead,Gargoyle ,185,30 ,2 ,410 ,Unarmored ,3/9 ,160/80 ,350,35,Pierce/Normal,Missile/Normal,19.5/27,65.5/82,2.2/1.4,30/Melee,gargoyle.png
 Undead,Abomination ,240,70 ,4 ,1175 ,Heavy ,2/8 ,140/80 ,270,40,Normal,Normal,36/48,None,1.9,Melee,abomination.png
-Undead,Meat Wagon ,230,50 ,4 ,380 ,Heavy ,2 ,140/120 ,220,45,Siege,Artillery,79.5/108,None,4,25 min/115 max
-Undead,Necromancer ,145,20 ,2 ,305/385 ,Unarmored ,0 ,140/90 ,270,24,Magic,Missile,8.5,8.5,1.8,60
-Undead,Banshee ,155,30 ,2 ,285/365 ,Unarmored ,0 ,140/80 ,270,28,Magic,Missile,11,11,1.5,60
-Undead,Frost Wyrm ,385,120 ,7 ,1350 ,Light ,1/7 ,160/80 ,270,65,Magic,Msplash,104/123.5,89/107,3,30
-Undead,Shade ,N/A,N/A ,1 ,125 ,Medium ,0 ,190/80 ,350,15,N/A,N/A,N/A,N/A,N/A,N/A
-Undead,Skeleton Warrior ,N/A,N/A ,0 ,180 ,Heavy ,1/7 ,80/60 ,270,N/A,Normal,Normal,14.5/19,None,2,Melee
-Undead,Skeletal Mage ,N/A,N/A ,0 ,230 ,Medium ,0/6 ,140/90 ,270,N/A,Pierce,Missile,11.5/16,11.5/16,1.5,50
-Undead,Infernal ,N/A,N/A ,N/A ,1500 ,Heavy ,6 ,140/80 ,320,N/A,Chaos,Normal,54.5,None,1.35,Melee
-Undead,Carrion Beetle 1 ,N/A,N/A ,0 ,140 ,Heavy ,2 ,120/80 ,270,N/A,Normal,Normal,8.5,None,1.5,Melee
-Undead,Carrion Beetle 2 ,N/A,N/A ,0 ,275 ,Heavy ,2 ,120/80 ,270,N/A,Normal,Normal,16.5,None,1.5,Melee
-Undead,Carrion Beetle 3 ,N/A,N/A ,0 ,410 ,Heavy ,2 ,120/80 ,270,N/A,Normal,Normal,24.5,None,1.5,Melee
-Undead,Obsidian Statue ,200,35 ,3 ,550 ,Heavy ,4 ,120/80 ,270,45,Magic,Missile,7.5,7.5,2.1,57.5
-Undead,Destroyer ,N/A,N/A ,5 ,900 ,Light ,3/9 ,140/100 ,320,N/A,Magic,Msplash,20/26,20/26,1.35,45
+Undead,Meat Wagon ,230,50 ,4 ,380 ,Heavy ,2 ,140/120 ,220,45,Siege,Artillery,79.5/108,None,4,25 min/115 max,meat_wagon.png
+Undead,Necromancer ,145,20 ,2 ,305/385 ,Unarmored ,0 ,140/90 ,270,24,Magic,Missile,8.5,8.5,1.8,60,necromancer.png
+Undead,Banshee ,155,30 ,2 ,285/365 ,Unarmored ,0 ,140/80 ,270,28,Magic,Missile,11,11,1.5,60,banshee.png
+Undead,Frost Wyrm ,385,120 ,7 ,1350 ,Light ,1/7 ,160/80 ,270,65,Magic,Msplash,104/123.5,89/107,3,30,frost_wyrm.png
+Undead,Shade ,N/A,N/A ,1 ,125 ,Medium ,0 ,190/80 ,350,15,N/A,N/A,N/A,N/A,N/A,N/A,shade.png
+Undead,Skeleton Warrior ,N/A,N/A ,0 ,180 ,Heavy ,1/7 ,80/60 ,270,N/A,Normal,Normal,14.5/19,None,2,Melee,skeleton_warrior.png
+Undead,Skeletal Mage ,N/A,N/A ,0 ,230 ,Medium ,0/6 ,140/90 ,270,N/A,Pierce,Missile,11.5/16,11.5/16,1.5,50,skeletal_mage.png
+Undead,Infernal ,N/A,N/A ,N/A ,1500 ,Heavy ,6 ,140/80 ,320,N/A,Chaos,Normal,54.5,None,1.35,Melee,infernal.png
+Undead,Carrion Beetle 1 ,N/A,N/A ,0 ,140 ,Heavy ,2 ,120/80 ,270,N/A,Normal,Normal,8.5,None,1.5,Melee,beetle.png
+Undead,Carrion Beetle 2 ,N/A,N/A ,0 ,275 ,Heavy ,2 ,120/80 ,270,N/A,Normal,Normal,16.5,None,1.5,Melee,beetle.png
+Undead,Carrion Beetle 3 ,N/A,N/A ,0 ,410 ,Heavy ,2 ,120/80 ,270,N/A,Normal,Normal,24.5,None,1.5,Melee,beetle.png
+Undead,Obsidian Statue ,200,35 ,3 ,550 ,Heavy ,4 ,120/80 ,270,45,Magic,Missile,7.5,7.5,2.1,57.5,obsidian.png
+Undead,Destroyer ,N/A,N/A ,5 ,900 ,Light ,3/9 ,140/100 ,320,N/A,Magic,Msplash,20/26,20/26,1.35,45,destroyer.png
 # Human
 Human,Peasant ,75,0 ,1 ,220 ,Medium ,0 ,80/60 ,190,15,Normal,Normal,5.5,None,2,Melee
 Human,Militia ,None,None ,1 ,220 ,Heavy ,4/10 ,140/80 ,270,N/A,Normal,Normal,12.5/17,None,1.2,Melee
