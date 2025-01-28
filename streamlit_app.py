@@ -1,7 +1,6 @@
 import altair as alt
 import pandas as pd
 import streamlit as st
-from st_clickable_images import clickable_images
 import base64
 
 ICON_DIR = './images/icons/'
