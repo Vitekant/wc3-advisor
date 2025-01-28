@@ -33,7 +33,7 @@ units_tab, armour_tab = st.tabs(['Units', 'Armour'])
 def prepare_units_tab():
     @st.cache_data
     def load_units_data():
-        df = pd.read_csv("data/units.csv")
+        df = pd.read_csv("data/units.csv", comment='#')
         df['Id'] = df['Unit'].str.replace(' ', '_').str.replace('.','').str.lower()
         df["Icon"] = df["Icon"].fillna('default.png')
         df['Icon'] = "static/icons/" +  df['Race'].str.lower().str.replace(' ','_') + "/" + df['Icon']
@@ -47,7 +47,7 @@ def prepare_units_tab():
     races = st.multiselect(
         "Races",
         units['Race'].unique(),
-        ["Human", "Night Elf", "Orc", "Undead"],
+        default=["Human", "Night Elf", "Orc", "Undead"],
     )
 
     # # Show a slider widget with the years using `st.slider`.
