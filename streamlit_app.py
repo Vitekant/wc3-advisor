@@ -72,7 +72,7 @@ def prepare_units_tab():
         def unit_details():
             # st.header(row["Unit"])
             st.image("./" + row["Icon"])
-            print(row_filtered(row))
+            # print(row_filtered(row))
             st.dataframe(row_filtered(row))
         
         return unit_details
@@ -218,7 +218,21 @@ images = []
 #     .properties(height=320)
 # )
 # st.altair_chart(chart, use_container_width=True)
+@st.cache_data()
+def load_armor_data():
+    df = pd.read_csv("data/armour.csv", comment='#', index_col=["Attack Type"])
+    # print(df.set_index(df['Attack Type']))
+    # print(df)
+    return df
 
+def prepare_armor_tab():
+    armor = load_armor_data()
+    # print(armor.reset_index(drop=True).set_index(armor['Attack Type'], drop=True))
+    # print(armor.columns)
+    st.dataframe(armor)
 
 with units_tab:
     prepare_units_tab()
+
+with armour_tab:
+    prepare_armor_tab()

@@ -45,30 +45,30 @@ Human,Knight ,245,60 ,4 ,835/985 ,Heavy ,5/11 ,140/80 ,350,45,Normal,Normal,34/4
 Human,Priest ,135,10 ,2 ,290/370 ,Unarmored ,0 ,140/80 ,270,28,Magic,Missile,8.5,8.5,2,60,priest.png
 Human,Sorceress ,155,20 ,2 ,325/405 ,Unarmored ,0 ,140/80 ,270,30,Magic,Missile,11,11,1.75,60,sorceress.png
 Human,Spell Breaker ,215,30 ,3 ,600 ,Medium ,3/9 ,140/80 ,300,28,Normal,Missile,14/20,None,1.9,25,spell_breaker.png
-Human,Flying Machine ,90,30 ,1 ,200 ,Heavy ,2/8 ,180/110 ,400,13,Siege/Pierce,Missile/Instant,7.5/12,14.5/19,2.5/2,Melee/50
+Human,Flying Machine ,90,30 ,1 ,200 ,Heavy ,2/8 ,180/110 ,400,13,Siege/Pierce,Missile/Instant,7.5/12,14.5/19,2.5/2,Melee/50,gyro.png
 Human,Mortar Team ,180,70 ,3 ,360 ,Heavy ,0/6 ,140/120 ,270,40,Siege,Artillery,58/79,None,3.5,25 min/115 max,mortar.png
-Human,Siege Engine ,195,60 ,3 ,700 ,Fort ,2/8 ,140/80 ,220,55,Siege,Instant,50/68,13.5/18*,2.1,19/50
-Human,Gryphon Rider ,280,70 ,4 ,825/975 ,Light ,0/6 ,160/90 ,320,45,Magic,Mline,50/68,50/68,2.2/2.4,45
-Human,Dragonhawk Rider ,200,30 ,3 ,575/725 ,Light ,1/7 ,140/80 ,350,28,Pierce,Missile,19/25,19/25,1.75,30
-Human,Water Elemental 1 ,None,None ,None ,525 ,Heavy ,0 ,120/80 ,220,N/A,Pierce,Missile,20,20,1.5,30
-Human,Water Elemental 2 ,None,None ,None ,675 ,Heavy ,1 ,120/80 ,220,N/A,Pierce,Missile,35,35,1.5,30
-Human,Water Elemental 3 ,None,None ,None ,900 ,Heavy ,2 ,120/80 ,220,N/A,Pierce,Missile,45,45,1.5,30
-Human,Phoenix ,None,None ,None ,1250 ,Light ,1 ,160/60 ,320,N/A,Magic,Msplash,68,68,1.4,60
+Human,Siege Engine ,195,60 ,3 ,700 ,Fortification ,2/8 ,140/80 ,220,55,Siege,Instant,50/68,13.5/18*,2.1,19/50,tank.png
+Human,Gryphon Rider ,280,70 ,4 ,825/975 ,Light ,0/6 ,160/90 ,320,45,Magic,Mline,50/68,50/68,2.2/2.4,45,gryphon.png
+Human,Dragonhawk Rider ,200,30 ,3 ,575/725 ,Light ,1/7 ,140/80 ,350,28,Pierce,Missile,19/25,19/25,1.75,30,dragonhawk.png
+Human,Water Elemental 1 ,None,None ,None ,525 ,Heavy ,0 ,120/80 ,220,N/A,Pierce,Missile,20,20,1.5,30,elemental.png
+Human,Water Elemental 2 ,None,None ,None ,675 ,Heavy ,1 ,120/80 ,220,N/A,Pierce,Missile,35,35,1.5,30,elemental.png
+Human,Water Elemental 3 ,None,None ,None ,900 ,Heavy ,2 ,120/80 ,220,N/A,Pierce,Missile,45,45,1.5,30,elemental.png
+Human,Phoenix ,None,None ,None ,1250 ,Light ,1 ,160/60 ,320,N/A,Magic,Msplash,68,68,1.4,60,phoenix.png
 # Night Elf
-Night Elf,Wisp ,60,0 ,1 ,120 ,Medium ,0 ,100/75 ,270,14,None,None,None,None,None,None
-Night Elf,Archer ,130,10 ,2 ,245 ,Medium ,0/6 ,140/80 ,270,20,Pierce,Missile,17/26,17/26,1.5,50/70
-Night Elf,Huntress ,195,20 ,3 ,600 ,Unarmored ,2/8 ,140/80 ,350,30,Normal,Mbounce,17/23,None,1.8,22
-Night Elf,Glaive Thrower ,210,65 ,3 ,300 ,Heavy ,2 ,140/120 ,220,48,Siege,Aline,44.5/73,None,3.5,25 min/115 max
-Night Elf,Dryad ,145,60 ,3 ,435 ,Unarmored ,0/6 ,140/80 ,350,30,Pierce,Missile,18/24,18/24,2,50
-Night Elf,DoC Druid Form ,255,80 ,4 ,430/580 ,Heavy ,1 ,140/80 ,270,35,Normal,Normal,20.5/25.5,None,1.5,Melee
-Night Elf,DoC Bear Form ,N/A,N/A ,4 ,960 ,Heavy ,3/9 ,140/80 ,270,N/A,Normal,Normal,36.5/47,None,1.5,Melee
-Night Elf,Mountain Giant ,425,100 ,7 ,1600 ,Medium ,4/10 ,120/80 ,270,45,Normal/Siege,Normal,34/46|41/54.5,None,2.5,Melee/25
-Night Elf,Hippogryph ,160,20 ,2 ,525 ,Unarmored ,0/6 ,160/80 ,400,40,Normal,Normal,None,53.5/67,1.05,Melee
-Night Elf,DoT Druid Form ,135,20 ,2 ,300/380 ,Unarmored ,0 ,140/80 ,270,22,Magic,Missile,12,12,1.6,60
-Night Elf,DoT Crow Form ,N/A,N/A ,2 ,300/380 ,Unarmored ,0/6 ,160/80 ,320,N/A,Magic,Missile,None,38/50,1.75,60
-Night Elf,Faerie Dragon ,155,25 ,2 ,450 ,Light ,0/6 (+12) ,160/100 ,350,25,Pierce,Missile,15/21,15/21,1.75,30
-Night Elf,Hippogryph Rider ,N/A,N/A ,4 ,765 ,Light ,1/7 ,160/80 ,350,N/A,Pierce,Missile,17/26,17/26,1.1,40/60
-Night Elf,Chimaera ,330,70 ,5 ,1000 ,Light ,2/8 ,160/80 ,250,65,Magic/Siege,Msplash/Missile,75/102|50/68,None,2.5,45/85
-Night Elf,Treant ,N/A,N/A ,N/A ,300 ,Heavy ,0/5 ,120/80 ,220,N/A,Normal,Normal,16,None,1.75,Melee
-Night Elf,Avatar of Vengeance ,N/A,N/A ,N/A ,1200 ,Heavy ,2 ,120/100 ,320,N/A,Normal,Missile,30.5,30.5,1.35,45
-Night Elf,Spirit of Vengeance ,N/A,N/A ,N/A ,500 ,Invulnerable ,Invulnerable ,120/80 ,270,N/A,Pierce,Missile,16,16,1.35,45
+Night Elf,Wisp ,60,0 ,1 ,120 ,Medium ,0 ,100/75 ,270,14,None,None,None,None,None,None,wisp.png
+Night Elf,Archer ,130,10 ,2 ,245 ,Medium ,0/6 ,140/80 ,270,20,Pierce,Missile,17/26,17/26,1.5,50/70,archer.png
+Night Elf,Huntress ,195,20 ,3 ,600 ,Unarmored ,2/8 ,140/80 ,350,30,Normal,Mbounce,17/23,None,1.8,22,huntress.png
+Night Elf,Glaive Thrower ,210,65 ,3 ,300 ,Heavy ,2 ,140/120 ,220,48,Siege,Aline,44.5/73,None,3.5,25 min/115 max,thrower.png
+Night Elf,Dryad ,145,60 ,3 ,435 ,Unarmored ,0/6 ,140/80 ,350,30,Pierce,Missile,18/24,18/24,2,50,dryad.png
+Night Elf,DoC Druid Form ,255,80 ,4 ,430/580 ,Heavy ,1 ,140/80 ,270,35,Normal,Normal,20.5/25.5,None,1.5,Melee,claw.png
+Night Elf,DoC Bear Form ,N/A,N/A ,4 ,960 ,Heavy ,3/9 ,140/80 ,270,N/A,Normal,Normal,36.5/47,None,1.5,Melee,bear.png
+Night Elf,Mountain Giant ,425,100 ,7 ,1600 ,Medium ,4/10 ,120/80 ,270,45,Normal/Siege,Normal,34/46|41/54.5,None,2.5,Melee/25,giant.png
+Night Elf,Hippogryph ,160,20 ,2 ,525 ,Unarmored ,0/6 ,160/80 ,400,40,Normal,Normal,None,53.5/67,1.05,Melee,hippogryph.png
+Night Elf,DoT Druid Form ,135,20 ,2 ,300/380 ,Unarmored ,0 ,140/80 ,270,22,Magic,Missile,12,12,1.6,60,talon.png
+Night Elf,DoT Crow Form ,N/A,N/A ,2 ,300/380 ,Unarmored ,0/6 ,160/80 ,320,N/A,Magic,Missile,None,38/50,1.75,60,crow.png
+Night Elf,Faerie Dragon ,155,25 ,2 ,450 ,Light ,0/6 (+12) ,160/100 ,350,25,Pierce,Missile,15/21,15/21,1.75,30,faerie.png
+Night Elf,Hippogryph Rider ,N/A,N/A ,4 ,765 ,Light ,1/7 ,160/80 ,350,N/A,Pierce,Missile,17/26,17/26,1.1,40/60,raider.png
+Night Elf,Chimaera ,330,70 ,5 ,1000 ,Light ,2/8 ,160/80 ,250,65,Magic/Siege,Msplash/Missile,75/102|50/68,None,2.5,45/85,chimaera.png
+Night Elf,Treant ,N/A,N/A ,N/A ,300 ,Heavy ,0/5 ,120/80 ,220,N/A,Normal,Normal,16,None,1.75,Melee,treant.png
+Night Elf,Avatar of Vengeance ,N/A,N/A ,N/A ,1200 ,Heavy ,2 ,120/100 ,320,N/A,Normal,Missile,30.5,30.5,1.35,45,avatar.png
+Night Elf,Spirit of Vengeance ,N/A,N/A ,N/A ,500 ,Invulnerable ,Invulnerable ,120/80 ,270,N/A,Pierce,Missile,16,16,1.35,45,spirit.png
